@@ -1,4 +1,4 @@
-Números primos
+#Números primos
 
 def es_primo(a):
     primo = True
