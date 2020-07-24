@@ -7,6 +7,6 @@ def es_primo(a):
     for i in range(2, a):  #un rango desde el dos hasta el numero que nosotros elijamos
          if a % i == 0:    #si el resto da 0 no es primo, por lo tanto devuelve Falso
           primo = False
-    return primo = True   #de lo contrario devuelve Verdadero
+    return primo    #de lo contrario devuelve Verdadero
 
-print(es_primo(15))  #para probarlo llamamos a la función
+print(es_primo())  #para probarlo llamamos a la función
