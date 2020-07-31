@@ -44,3 +44,5 @@ def calcular_edad (fecha_nac):
     return edad
 
 print("Su edad es : ", str(calcular_edad(fecha_nac)))
+
+print("Eso sería chau nos vimoh")
