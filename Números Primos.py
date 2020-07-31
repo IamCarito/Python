@@ -1,5 +1,5 @@
 #Números primos
-
+a=3
 def es_primo(a):
     primo = True
     if a < 2:     #si es menos que 2 no es primo, por lo tanto devolverá Falso
@@ -9,4 +9,4 @@ def es_primo(a):
           primo = False
     return primo    #de lo contrario devuelve Verdadero
 
-print(es_primo())  #para probarlo llamamos a la función
+print(es_primo(a))  #para probarlo llamamos a la función
